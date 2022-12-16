@@ -1,0 +1,62 @@
+[
+    {
+       "id":11612598,
+       "advert_url":"https://jiji.co.ke/nairobi-central/cars/nissan-note-2015-pink-iW8UR5BwVHD1xGjGyEKhGYCd.html",
+       "image_url":"https://pictures-kenya.jijistatic.com/42584409_MTQ0OC0xMTI0LWRjODQ1Yzc3MDY.webp",
+       "price":"KSh 980,000"
+    },
+    {
+       "id":10451756,
+       "advert_url":"https://jiji.co.ke/mombasa-cbd/cars/bmw-x1-xdrive28i-awd-2016-brown-AR7pLnfl0Z2W3wo6yI8N6FRT.html",
+       "image_url":"https://pictures-kenya.jijistatic.com/36927868_MTUwMC0xMTI1LTlhZmI1YTkzYmY.webp",
+       "price":"KSh 3,900,000"
+    },
+    {
+       "id":11244614,
+       "advert_url":"https://jiji.co.ke/upperhill/cars/bmw-320i-2002-red-iymDLyFGf0BeH7oi72swx1Tc.html",
+       "image_url":"https://pictures-kenya.jijistatic.com/40726069_MTUwMC0xMTI1LWViNjI4YmRhZjI.webp",
+       "price":"KSh 599,000"
+    },
+    {
+       "id":11088243,
+       "advert_url":"https://jiji.co.ke/karen/cars/toyota-hilux-2015-white-tXlmARpVPPXpebIaYhf5XRhH.html",
+       "image_url":"https://pictures-kenya.jijistatic.com/39968443_MTUwMC0xNTAwLTUwMTc2YjMxYmY.webp",
+       "price":"KSh 1,999,000"
+    },
+    {
+       "id":10243164,
+       "advert_url":"https://jiji.co.ke/ridgeways/cars/subaru-legacy-2012-blue-fmKFK4JgcPhd3QHg0tyt895k.html",
+       "image_url":"https://pictures-kenya.jijistatic.com/36095737_MTUwMC03MDktMzllMzI5MzExZg.webp",
+       "price":"KSh 1,300,000"
+    },
+    {
+       "id":10564543,
+       "advert_url":"https://jiji.co.ke/kilimani/cars/bmw-120i-2014-red-32pBx0MUfsApdKrzCZiK77vr.html",
+       "image_url":"https://pictures-kenya.jijistatic.com/37423313_MTUwMC0xMTI1LWYxMzZmZGE3YTA.webp",
+       "price":"KSh 1,900,000"
+    },
+    {
+       "id":10224833,
+       "advert_url":"https://jiji.co.ke/nairobi-central/cars/toyota-noah-2012-blue-m84zP7Y3k3vxHQEiNiQDOOxP.html",
+       "image_url":"https://pictures-kenya.jijistatic.com/36045050_MTUwMC0xMTI1LTA2YTRiYjE4ZjU.webp",
+       "price":"KSh 1,250,000"
+    },
+    {
+       "id":9236212,
+       "advert_url":"https://jiji.co.ke/kilimani/cars/toyota-vanguard-2012-white-n9Rw1IAZ3LQIVxSo97VhkeTC.html",
+       "image_url":"https://pictures-kenya.jijistatic.com/32275261_MTYwMC0xMjAwLTdhZWU5YjM0MTg.webp",
+       "price":"KSh 1,999,999"
+    },
+    {
+       "id":10292104,
+       "advert_url":"https://jiji.co.ke/mombasa-cbd/cars/subaru-impreza-2008-brown-hFe5SXZ9i6TCfj7eJYTHewBv.html",
+       "image_url":"https://pictures-kenya.jijistatic.com/36314345_MTEyNS0xNTAwLWZkNTNjYzE3Nzc.webp",
+       "price":"KSh 800,000"
+    },
+    {
+       "id":10511135,
+       "advert_url":"https://jiji.co.ke/nairobi-central/cars/toyota-ist-2009-silver-uYXp7JkP6qx51U4O5xra6CJl.html",
+       "image_url":"https://pictures-kenya.jijistatic.com/37179064_MTYwMC0xMjAwLWU1YmZiMzc5ZjY.webp",
+       "price":"KSh 750,000"
+    }
+ ]
