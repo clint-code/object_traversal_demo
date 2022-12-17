@@ -1,0 +1,24 @@
+<h1>Cars on Sale</h1>
+
+<div class="grid">
+
+    <div class="carItem" *ngFor="let carItem of carsOnAdData">
+
+        <div class="carImage">
+            <img src = "{{carItem.image_url}}" />
+        </div>
+    
+        <div class="carDescription">
+    
+            <h5>
+                {{carItem.price}}
+            </h5>
+            <p>
+                To read more, <a href="{{carItem.advert_url}}" target="_blank">click here</a>
+            </p>
+            
+        </div>
+    
+    </div>
+    
+</div>

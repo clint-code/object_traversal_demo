@@ -1,0 +1,40 @@
+
+.carItem{
+    width: 28%;
+    margin-left: 1%;
+    margin-right: 1%;
+    float: left;
+    border: 2px solid rgb(0, 181, 63);
+    border-radius: 8px;
+
+    .carImage{
+
+        img{
+            width: 100%;
+            height: auto;
+        }
+
+    }
+
+    .carDescription{
+
+        h5{
+            font-size: 18px;
+            color: #00b53f;
+            font-weight: 700;
+            font-family: Arial,sans-serif;
+            margin-bottom: 0px;
+        }
+
+        p{
+            font-size: 14px;
+            line-height: 17px;
+            font-weight: 400;
+            color: #6c8ea0;
+            font-family: Arial,sans-serif;
+        }
+
+    }
+
+}
+

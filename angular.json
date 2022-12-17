@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "object-traversal-demo"
+    }
+  },
+  "defaultProject": "object-traversal-demo",
+  "cli": {
+    "analytics": false
+  }
 }
