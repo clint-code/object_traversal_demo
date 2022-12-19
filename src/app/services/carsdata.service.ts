@@ -16,4 +16,10 @@ export class CarsdataService {
     return this.http.get("/assets/data/jiji.json");
   }
 
+  getAdvertListingJSON(){
+
+    return this.http.get("/assets/data/adverts-list.json");
+
+  }
+
 }
