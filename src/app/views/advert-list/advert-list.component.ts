@@ -28,18 +28,22 @@ export class AdvertListComponent implements OnInit {
 
     this.carsOnAdDataService.getAdvertListingJSON().subscribe(response => {
 
-        this.advertListData = response;
+      if(response[0]["adverts_list"].length > 0){
+
+        this.advertListData = response[0]["adverts_list"];
 
         console.log(this.advertListData);
 
-        //console.log(jQuery.type( advertListData ))
+      }
 
+      
+        
     });
     
 
 
 
-  }
+   }
 
   
 
