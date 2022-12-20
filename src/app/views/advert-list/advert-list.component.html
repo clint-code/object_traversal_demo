@@ -2,22 +2,23 @@
 
 <div class="grid">
 
-    <div class="carItem" *ngFor="let adItem of advertListData">
+    <div class="item" *ngFor="let adItem of advertListData">
 
-        <div class="carImage">
+        <div class="itemImage">
             <img src = "{{adItem.image}}" />
         </div>
     
-        <!-- <div class="carDescription">
+        <div class="itemDescription">
     
-            <h5>
-                {{carItem.price}}
-            </h5>
+            <h4>
+                {{adItem.title}}
+            </h4>
+            
             <p>
-                To read more, <a href="{{carItem.advert_url}}" target="_blank">click here</a>
+                Kshs {{adItem.price}}
             </p>
             
-        </div> -->
+        </div>
     
     </div> 
     
