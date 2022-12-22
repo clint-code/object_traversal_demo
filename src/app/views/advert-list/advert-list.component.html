@@ -8,12 +8,17 @@
 
             <a href="https://jiji.co.ke{{adItem.url}}" target="_blank">
 
-                <div class="item-label" 
-                    [ngStyle] = "{
-                        'backgroundColor': adItem.badge_info.bg_color,
-                        'color': adItem.badge_info.text_color
-                    }">
-                    {{adItem.badge_info.label}}
+                <div *ngIf="(adItem.badge_info | json) != '{}'">
+
+                    <div class="item-label"
+
+                        [ngStyle] = "{
+                            'backgroundColor': adItem.badge_info.bg_color,
+                            'color': adItem.badge_info.text_color
+                        }">
+                        {{adItem.badge_info.label}}
+                    </div>
+
                 </div>
 
                 <div class="itemImage" 
@@ -28,7 +33,7 @@
                     </h4>
                     
                     <p>
-                        Kshs {{adItem.price}}
+                        {{adItem.price | currency : 'KES '}}
                     </p>
                     
                 </div>

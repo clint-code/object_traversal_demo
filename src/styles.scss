@@ -1,6 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
 body {
     background-color: #EBF2F7;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.4em;
+    color: #415661;
+    margin-bottom: 12px;
 }
 
 .grid {
@@ -8,7 +17,7 @@ body {
     flex-wrap: wrap;
 
     .item {
-        width: 25%;
+        width: 23%;
         padding: 0 7px;
         margin-bottom: 15px;
 
