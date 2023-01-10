@@ -1,0 +1,72 @@
+{
+    "@series": "f1",
+    "@url": "http://ergast.com/api/f1/2022/constructors",
+    "@limit": "30",
+    "@offset": "0",
+    "@total": "10",
+    "ConstructorTable": {
+      "@season": "2022",
+      "Constructor": [
+        {
+          "@constructorId": "alfa",
+          "@url": "http://en.wikipedia.org/wiki/Alfa_Romeo_in_Formula_One",
+          "Name": "Alfa Romeo",
+          "Nationality": "Swiss"
+        },
+        {
+          "@constructorId": "alphatauri",
+          "@url": "http://en.wikipedia.org/wiki/Scuderia_AlphaTauri",
+          "Name": "AlphaTauri",
+          "Nationality": "Italian"
+        },
+        {
+          "@constructorId": "alpine",
+          "@url": "http://en.wikipedia.org/wiki/Alpine_F1_Team",
+          "Name": "Alpine F1 Team",
+          "Nationality": "French"
+        },
+        {
+          "@constructorId": "aston_martin",
+          "@url": "http://en.wikipedia.org/wiki/Aston_Martin_in_Formula_One",
+          "Name": "Aston Martin",
+          "Nationality": "British"
+        },
+        {
+          "@constructorId": "ferrari",
+          "@url": "http://en.wikipedia.org/wiki/Scuderia_Ferrari",
+          "Name": "Ferrari",
+          "Nationality": "Italian"
+        },
+        {
+          "@constructorId": "haas",
+          "@url": "http://en.wikipedia.org/wiki/Haas_F1_Team",
+          "Name": "Haas F1 Team",
+          "Nationality": "American"
+        },
+        {
+          "@constructorId": "mclaren",
+          "@url": "http://en.wikipedia.org/wiki/McLaren",
+          "Name": "McLaren",
+          "Nationality": "British"
+        },
+        {
+          "@constructorId": "mercedes",
+          "@url": "http://en.wikipedia.org/wiki/Mercedes-Benz_in_Formula_One",
+          "Name": "Mercedes",
+          "Nationality": "German"
+        },
+        {
+          "@constructorId": "red_bull",
+          "@url": "http://en.wikipedia.org/wiki/Red_Bull_Racing",
+          "Name": "Red Bull",
+          "Nationality": "Austrian"
+        },
+        {
+          "@constructorId": "williams",
+          "@url": "http://en.wikipedia.org/wiki/Williams_Grand_Prix_Engineering",
+          "Name": "Williams",
+          "Nationality": "British"
+        }
+      ]
+    }
+  }
