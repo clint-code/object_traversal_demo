@@ -1,16 +1,10 @@
-{
-    "@series": "f1",
-    "@url": "http://ergast.com/api/f1/2022/drivers",
-    "@limit": "30",
-    "@offset": "0",
-    "@total": "22",
-    "DriverTable": {
-      "@season": "2022",
+[
+  {
       "Driver": [
         {
           "@driverId": "albon",
           "@code": "ALB",
-          "@url": "http://en.wikipedia.org/wiki/Alexander_Albon",
+          "url": "http://en.wikipedia.org/wiki/Alexander_Albon",
           "PermanentNumber": "23",
           "GivenName": "Alexander",
           "FamilyName": "Albon",
@@ -21,7 +15,7 @@
         {
           "@driverId": "alonso",
           "@code": "ALO",
-          "@url": "http://en.wikipedia.org/wiki/Fernando_Alonso",
+          "url": "http://en.wikipedia.org/wiki/Fernando_Alonso",
           "PermanentNumber": "14",
           "GivenName": "Fernando",
           "FamilyName": "Alonso",
@@ -32,7 +26,7 @@
         {
           "@driverId": "bottas",
           "@code": "BOT",
-          "@url": "http://en.wikipedia.org/wiki/Valtteri_Bottas",
+          "url": "http://en.wikipedia.org/wiki/Valtteri_Bottas",
           "PermanentNumber": "77",
           "GivenName": "Valtteri",
           "FamilyName": "Bottas",
@@ -43,7 +37,7 @@
         {
           "@driverId": "de_vries",
           "@code": "DEV",
-          "@url": "http://en.wikipedia.org/wiki/Nyck_de_Vries",
+          "url": "http://en.wikipedia.org/wiki/Nyck_de_Vries",
           "PermanentNumber": "45",
           "GivenName": "Nyck",
           "FamilyName": "de Vries",
@@ -54,7 +48,7 @@
         {
           "@driverId": "gasly",
           "@code": "GAS",
-          "@url": "http://en.wikipedia.org/wiki/Pierre_Gasly",
+          "url": "http://en.wikipedia.org/wiki/Pierre_Gasly",
           "PermanentNumber": "10",
           "GivenName": "Pierre",
           "FamilyName": "Gasly",
@@ -65,7 +59,7 @@
         {
           "@driverId": "hamilton",
           "@code": "HAM",
-          "@url": "http://en.wikipedia.org/wiki/Lewis_Hamilton",
+          "url": "http://en.wikipedia.org/wiki/Lewis_Hamilton",
           "PermanentNumber": "44",
           "GivenName": "Lewis",
           "FamilyName": "Hamilton",
@@ -76,7 +70,7 @@
         {
           "@driverId": "hulkenberg",
           "@code": "HUL",
-          "@url": "http://en.wikipedia.org/wiki/Nico_H%C3%BClkenberg",
+          "url": "http://en.wikipedia.org/wiki/Nico_H%C3%BClkenberg",
           "PermanentNumber": "27",
           "GivenName": "Nico",
           "FamilyName": "Hülkenberg",
@@ -87,7 +81,7 @@
         {
           "@driverId": "latifi",
           "@code": "LAT",
-          "@url": "http://en.wikipedia.org/wiki/Nicholas_Latifi",
+          "url": "http://en.wikipedia.org/wiki/Nicholas_Latifi",
           "PermanentNumber": "6",
           "GivenName": "Nicholas",
           "FamilyName": "Latifi",
@@ -98,7 +92,7 @@
         {
           "@driverId": "leclerc",
           "@code": "LEC",
-          "@url": "http://en.wikipedia.org/wiki/Charles_Leclerc",
+          "url": "http://en.wikipedia.org/wiki/Charles_Leclerc",
           "PermanentNumber": "16",
           "GivenName": "Charles",
           "FamilyName": "Leclerc",
@@ -109,7 +103,7 @@
         {
           "@driverId": "kevin_magnussen",
           "@code": "MAG",
-          "@url": "http://en.wikipedia.org/wiki/Kevin_Magnussen",
+          "url": "http://en.wikipedia.org/wiki/Kevin_Magnussen",
           "PermanentNumber": "20",
           "GivenName": "Kevin",
           "FamilyName": "Magnussen",
@@ -120,7 +114,7 @@
         {
           "@driverId": "norris",
           "@code": "NOR",
-          "@url": "http://en.wikipedia.org/wiki/Lando_Norris",
+          "url": "http://en.wikipedia.org/wiki/Lando_Norris",
           "PermanentNumber": "4",
           "GivenName": "Lando",
           "FamilyName": "Norris",
@@ -131,7 +125,7 @@
         {
           "@driverId": "ocon",
           "@code": "OCO",
-          "@url": "http://en.wikipedia.org/wiki/Esteban_Ocon",
+          "url": "http://en.wikipedia.org/wiki/Esteban_Ocon",
           "PermanentNumber": "31",
           "GivenName": "Esteban",
           "FamilyName": "Ocon",
@@ -142,7 +136,7 @@
         {
           "@driverId": "perez",
           "@code": "PER",
-          "@url": "http://en.wikipedia.org/wiki/Sergio_P%C3%A9rez",
+          "url": "http://en.wikipedia.org/wiki/Sergio_P%C3%A9rez",
           "PermanentNumber": "11",
           "GivenName": "Sergio",
           "FamilyName": "Pérez",
@@ -153,7 +147,7 @@
         {
           "@driverId": "ricciardo",
           "@code": "RIC",
-          "@url": "http://en.wikipedia.org/wiki/Daniel_Ricciardo",
+          "url": "http://en.wikipedia.org/wiki/Daniel_Ricciardo",
           "PermanentNumber": "3",
           "GivenName": "Daniel",
           "FamilyName": "Ricciardo",
@@ -164,7 +158,7 @@
         {
           "@driverId": "russell",
           "@code": "RUS",
-          "@url": "http://en.wikipedia.org/wiki/George_Russell_%28racing_driver%29",
+          "url": "http://en.wikipedia.org/wiki/George_Russell_%28racing_driver%29",
           "PermanentNumber": "63",
           "GivenName": "George",
           "FamilyName": "Russell",
@@ -175,7 +169,7 @@
         {
           "@driverId": "sainz",
           "@code": "SAI",
-          "@url": "http://en.wikipedia.org/wiki/Carlos_Sainz_Jr.",
+          "url": "http://en.wikipedia.org/wiki/Carlos_Sainz_Jr.",
           "PermanentNumber": "55",
           "GivenName": "Carlos",
           "FamilyName": "Sainz",
@@ -186,7 +180,7 @@
         {
           "@driverId": "mick_schumacher",
           "@code": "MSC",
-          "@url": "http://en.wikipedia.org/wiki/Mick_Schumacher",
+          "url": "http://en.wikipedia.org/wiki/Mick_Schumacher",
           "PermanentNumber": "47",
           "GivenName": "Mick",
           "FamilyName": "Schumacher",
@@ -197,7 +191,7 @@
         {
           "@driverId": "stroll",
           "@code": "STR",
-          "@url": "http://en.wikipedia.org/wiki/Lance_Stroll",
+          "url": "http://en.wikipedia.org/wiki/Lance_Stroll",
           "PermanentNumber": "18",
           "GivenName": "Lance",
           "FamilyName": "Stroll",
@@ -208,7 +202,7 @@
         {
           "@driverId": "tsunoda",
           "@code": "TSU",
-          "@url": "http://en.wikipedia.org/wiki/Yuki_Tsunoda",
+          "url": "http://en.wikipedia.org/wiki/Yuki_Tsunoda",
           "PermanentNumber": "22",
           "GivenName": "Yuki",
           "FamilyName": "Tsunoda",
@@ -219,7 +213,7 @@
         {
           "@driverId": "max_verstappen",
           "@code": "VER",
-          "@url": "http://en.wikipedia.org/wiki/Max_Verstappen",
+          "url": "http://en.wikipedia.org/wiki/Max_Verstappen",
           "PermanentNumber": "33",
           "GivenName": "Max",
           "FamilyName": "Verstappen",
@@ -230,7 +224,7 @@
         {
           "@driverId": "vettel",
           "@code": "VET",
-          "@url": "http://en.wikipedia.org/wiki/Sebastian_Vettel",
+          "url": "http://en.wikipedia.org/wiki/Sebastian_Vettel",
           "PermanentNumber": "5",
           "GivenName": "Sebastian",
           "FamilyName": "Vettel",
@@ -241,7 +235,7 @@
         {
           "@driverId": "zhou",
           "@code": "ZHO",
-          "@url": "http://en.wikipedia.org/wiki/Guanyu_Zhou",
+          "url": "http://en.wikipedia.org/wiki/Guanyu_Zhou",
           "PermanentNumber": "24",
           "GivenName": "Guanyu",
           "FamilyName": "Zhou",
@@ -250,5 +244,5 @@
           "DriverImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Zhou_Guanyu_at_the_2022_Austrian_Grand_Prix.jpg/330px-Zhou_Guanyu_at_the_2022_Austrian_Grand_Prix.jpg"
         }
       ]
-    }
   }
+]

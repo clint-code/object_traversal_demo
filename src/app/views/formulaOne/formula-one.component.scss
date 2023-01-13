@@ -2,6 +2,26 @@ fieldset {
     border: 0;
 }
 
+h1 {
+    font-weight: 400;
+    font-size: 62px;
+    line-height: 62px;
+}
+
 .f1-border-color--carbonBlack {
-    border-color: #15151e !important;
+    border-color: #15151e;
+}
+
+.f1-border--top-right {
+    border-top: solid 10px #e10600;
+    border-right: solid 10px #e10600;
+}
+
+.listing-items--wrapper .listing-item--image-wrapper .listing-item--photo {
+    height: 192px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: -25px;
+    width: 192px;
   }

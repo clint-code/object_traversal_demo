@@ -6,11 +6,99 @@
             
             <div class="col-12">
                 <h1>F1 Drivers 2022</h1>
-                <p>Check out this season's official F1 line-up. Full breakdown of drivers, points and current positions. Follow your favourite F1 drivers on and off the track. </p>
             </div>
 
         </div>
 
     </fieldset>
+
+    <div class="row">
+
+        <div class="col-12 col-md-9 col-lg-8 col-xl-6">
+            <p>Check out this season's official F1 line-up. Full breakdown of drivers, points and current positions. Follow your favourite F1 drivers on and off the track. </p>
+        </div>
+
+    </div>
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3 driversItem" *ngFor="let drivers of driverData">
+
+                <a href="{{drivers.url}}" target="_blank">
+
+                    <fieldset class="f1-border--top-right f1-border--double listing-item--border">
+            
+                        <div class="container">
+
+                            <div class="row justify-content-between align-items-center listing-item--head">
+                                
+                                <div class="col-xs-8 listing-item--name f1-uppercase ">
+                                    <span class="d-block f1--xxs f1-color--carbonBlack">
+                                        {{drivers.GivenName}}
+                                    </span>
+
+                                    <span class="d-block f1-bold--s f1-color--carbonBlack">
+                                        {{drivers.FamilyName}}
+                                    </span>
+
+                                </div>
+                                
+                                
+                                <div class="col-xs-4 country-flag">          
+                
+                                    <picture class="coutnry-flag--photo">
+                                        <!--[if IE 9]><video style="display: none;"><![endif]-->
+                                        
+                                        <img 
+                                            data-src="https://www.formula1.com/content/dam/fom-website/flags/Netherlands.jpg.transform/2col/image.jpg" 
+                                            class="lazy loaded" 
+                                            src="https://www.formula1.com/content/dam/fom-website/flags/Netherlands.jpg.transform/2col/image.jpg" 
+                                            data-was-processed="true">
+                                        
+                                    </picture>
+                
+                                </div>
+            
+                            </div>
+
+                        </div>
+
+                        <p class="listing-item--team f1--xxs f1-color--gray5">Red Bull Racing</p>
+
+                        <div class="listing-item--image-wrapper f1-pattern-fill">
+                            
+                    <picture class="listing-item--photo">
+
+                        <img 
+                            data-src="https://www.formula1.com/content/dam/fom-website/drivers/M/MAXVER01_Max_Verstappen/maxver01.png.transform/2col/image.png" 
+                            class="lazy loaded" 
+                            src="{{drivers.DriverImage}}" 
+                            data-was-processed="true">
+                    
+                    </picture>         
+                
+                    <div class="listing-item--number">
+                        
+                        <h2>
+                            {{drivers.PermanentNumber}}
+                        </h2>
+                        
+                    
+                    </div>         
+                            
+                        </div>
+
+                    </fieldset>
+
+                </a>
+
+            </div>
+
+        </div>
+
+
+    </div>
 
 </div>

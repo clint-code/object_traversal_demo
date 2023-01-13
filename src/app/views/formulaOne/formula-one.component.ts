@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ConstructorsService } from 'src/app/services/constructors/constructors.service';
+import { ConstructorsService } from '../../services/constructors/constructors.service';
 
 @Component({
   selector: 'app-formula-one',
@@ -25,12 +25,17 @@ export class FormulaOneComponent implements OnInit {
 
   getDriverInformation(){
 
-    this.constructorDriverService.getDriversData().subscribe( response => {
+    this.constructorDriverService.getDriversData().subscribe(response => {
 
-      this.driverData = response;
+      if(response[0]["Driver"].length > 0){
 
-      console.log(response);
-    })
+        this.driverData = response[0]["Driver"];
+
+        console.log(this.driverData);
+
+      }
+
+    });
 
   }
 
