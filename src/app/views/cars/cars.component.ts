@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { Observable } from 'rxjs';
-import { ActivatedRoute, Router } from '@angular/router';
-import { HttpClient } from '@angular/common/http';
+// import { Observable } from 'rxjs';
+// import { ActivatedRoute, Router } from '@angular/router';
+// import { HttpClient } from '@angular/common/http';
 
 import { CarsdataService } from '../../services/carsdata.service';
 
@@ -19,8 +19,8 @@ export class CarsComponent implements OnInit {
 
   constructor(
     private carsOnAdDataService: CarsdataService,
-    private httpClient: HttpClient,
-    private route: ActivatedRoute
+    //private httpClient: HttpClient,
+    //private route: ActivatedRoute
   ) { }
 
   ngOnInit(): void {

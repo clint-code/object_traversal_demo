@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { CarsComponent } from './views/cars/cars.component';
 import { HttpClientModule } from '@angular/common/http';
 import { AdvertListComponent } from './views/advert-list/advert-list.component';
-import { FormulaOneComponent } from './views/formulaOne/formula-one/formula-one.component';
+import { FormulaOneComponent } from './views/formulaOne/formula-one.component';
 
 @NgModule({
   declarations: [
