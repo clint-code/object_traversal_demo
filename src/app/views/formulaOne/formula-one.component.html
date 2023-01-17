@@ -49,12 +49,10 @@
                                 <div class="col-xs-4 country-flag">          
                 
                                     <picture class="coutnry-flag--photo">
-                                        <!--[if IE 9]><video style="display: none;"><![endif]-->
                                         
-                                        <img 
-                                            data-src="https://www.formula1.com/content/dam/fom-website/flags/Netherlands.jpg.transform/2col/image.jpg" 
+                                        <img  
                                             class="lazy loaded" 
-                                            src="https://www.formula1.com/content/dam/fom-website/flags/Netherlands.jpg.transform/2col/image.jpg" 
+                                            src="{{drivers.Nationality}}"
                                             data-was-processed="true">
                                         
                                     </picture>
@@ -65,7 +63,9 @@
 
                         </div>
 
-                        <p class="listing-item--team f1--xxs f1-color--gray5">Red Bull Racing</p>
+                        <p class="listing-item--team f1--xxs f1-color--gray5">
+                            {{drivers.Constructor}}
+                        </p>
 
                         <div class="listing-item--image-wrapper f1-pattern-fill">
                             
@@ -81,9 +81,7 @@
                 
                     <div class="listing-item--number">
                         
-                        <h2>
-                            {{drivers.PermanentNumber}}
-                        </h2>
+                        <img src="{{drivers.PermanentNumber}}" alt="">
                         
                     
                     </div>         
